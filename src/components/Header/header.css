@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    margin: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #FF6060;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 50px;
+    color: #FF6060;
+    font-size: 24px;
+}
+
+a{
+
+    text-decoration : none;
+}
+
+a:visited {
+    color: #FF6060;
+    text-decoration : none;
+}
+
+.link.active {
+    text-decoration : underline;
+}
+
+@media screen and (max-width: 780px){
+
+    header {
+        margin: 10px 30px 0px 30px;
+    }
+
+    .kasaIcon{
+        width: 150px;
+    }
+
+    li{
+        min-width: 70px;
+        padding-left: 0px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
+
+@media all and (min-width: 781px) and (max-width: 1200px){
+    header {
+        margin: 30px 30px 20px 30px;
+    }
+}

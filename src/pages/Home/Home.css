@@ -1,0 +1,35 @@
+.bodyHome {
+  margin: 0px 100px;
+}
+
+.bannière{
+  border-radius: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/IMG.png);
+  background-size: cover;
+  background-position: bottom;
+  color: #FFF;
+  font-size: 48px;
+}
+
+.cardList {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+  border-radius: 25px;
+}
+
+
+@media screen and (max-width: 1200px){
+ .bodyHome {
+  margin: 0px 20px;
+}
+
+.cardList {
+ padding: 0px;   flex-direction: column;
+   background-color: #fff;
+}
+
+.bannière{
+  padding-left: 20px;
+}
+}

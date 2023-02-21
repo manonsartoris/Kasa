@@ -1,0 +1,10 @@
+.rating {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+@media screen and (max-width: 1200px){
+    .rating {
+        width: 25%;
+    }
+}
