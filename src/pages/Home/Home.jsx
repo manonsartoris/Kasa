@@ -10,7 +10,7 @@ import data from '../../json/logements.json'
 function Home() {
 
   const cardElements = data.map(card => (
-    <Logement type="card" data={card} className='logement'/>
+    <Logement type="card" key={card.id} data={card} className='logement'/>
 ));
 
   return (

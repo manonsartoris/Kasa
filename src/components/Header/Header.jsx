@@ -16,7 +16,7 @@ export default function Header(){
             <nav>
                 <ul>
                     <li>
-                        <Link className={`link ${location.pathname === "/" ? "active" : ""}`} to="/">Acceuil</Link>
+                        <Link className={`link ${location.pathname === "/" ? "active" : ""}`} to="/">Accueil</Link>
                     </li>
                     <li>
                         <Link className={`link ${location.pathname === "/about" ? "active" : ""}`} to="/about">A Propos</Link>
